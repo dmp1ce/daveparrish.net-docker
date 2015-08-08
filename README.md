@@ -14,7 +14,7 @@ Instructions on how to build my blog for daveparrish.net
 ## Run
 
 1. `docker-compose up -d`
-2. `docker run -d -p 80:80 -e DEFAULT_HOST=daveparrish.local -v /var/run/docker.sock:/tmp/docker.sock:ro jwilder/nginx-proxy`
+2. `./start_nginx_proxy.sh`
 
 I use the [jwilder/nginx-proxy](https://hub.docker.com/r/jwilder/nginx-proxy/) container to easily host my site and several other sites I may need to run.
 
