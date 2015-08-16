@@ -9,7 +9,7 @@ source:
   build: containers/source/.
   command: "true"
   volumes:
-    - {{#DEVELOPMENT}}containers/source/hakyll:{{/DEVELOPMENT}}/home/hakyll/hakyll
+    - {{#DEVELOPMENT}}./containers/source/hakyll:{{/DEVELOPMENT}}/home/hakyll/hakyll
 web:
   build: containers/web/.
   volumes_from:
