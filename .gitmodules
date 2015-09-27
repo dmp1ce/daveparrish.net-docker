@@ -1,3 +1,6 @@
 [submodule "hakyll"]
 	path = containers/source/hakyll
 	url = https://github.com/dmp1ce/daveparrish.net.git
+[submodule ".decompose/environment"]
+	path = .decompose/environment
+	url = https://github.com/dmp1ce/decompose-hakyll

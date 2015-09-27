@@ -1,6 +1,6 @@
 server {
   listen       80;
-  server_name  webpagedeveloper.me webpagedeveloper.local;
+  server_name  {{PROJECT_NGINX_VIRTUAL_HOST}};
 
   location / {
       root   /usr/share/nginx/html;
@@ -35,18 +35,10 @@ server {
 # Redirect alternative domain names.
 server {
   listen 80;
-  server_name www.daveparrish.net daveparrish.net www.webpagedeveloper.me;
+  server_name {{PROJECT_NGINX_VIRTUAL_HOST_ALTS}};
   # $scheme will get the http protocol
   # and 301 is best practice for tablet, phone, desktop and seo
-  return 301 $scheme://webpagedeveloper.me$request_uri;
-}
-
-server {
-  listen 80;
-  server_name daveparrish.local www.daveparrish.local www.webpagedeveloper.local;
-  # $scheme will get the http protocol
-  # and 301 is best practice for tablet, phone, desktop and seo
-  return 301 $scheme://webpagedeveloper.local$request_uri;
+  return 301 $scheme://{{PROJECT_NGINX_VIRTUAL_HOST}}$request_uri;
 }
 
 # vim:syntax=nginx
