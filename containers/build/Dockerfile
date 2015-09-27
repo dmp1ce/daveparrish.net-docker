@@ -1,3 +1,4 @@
+#FROM dmp1ce/hakyll
 FROM dmp1ce/hakyll
 MAINTAINER David Parrish <daveparrish@tutanota.com>
 
