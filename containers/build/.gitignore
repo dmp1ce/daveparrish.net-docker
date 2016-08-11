@@ -1,1 +1,2 @@
-/start_hakyll.sh
+start_hakyll.bash
+prepare_build.bash
