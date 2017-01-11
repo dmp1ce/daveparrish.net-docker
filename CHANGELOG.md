@@ -1,5 +1,9 @@
 # DaveParrish.net Changelog
 
+## 1.7.1
+
+Minor changes to 'Force VSYNC' post
+
 ## 1.7.0
 
 Add 'Force VSYNC' post
