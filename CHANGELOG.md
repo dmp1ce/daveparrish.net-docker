@@ -1,5 +1,9 @@
 # DaveParrish.net Changelog
 
+## 1.7.3
+
+Remove debugging text
+
 ## 1.7.2
 
 Improve modified time
