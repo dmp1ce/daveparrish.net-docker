@@ -1,5 +1,9 @@
 # DaveParrish.net Changelog
 
+## 1.8.0
+
+Add keybase.io to contact information
+
 ## 1.7.3
 
 Remove debugging text
