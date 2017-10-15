@@ -1,5 +1,9 @@
 # DaveParrish.net Changelog
 
+## 1.8.1
+
+Fix linkedin contact link
+
 ## 1.8.0
 
 Add keybase.io to contact information
